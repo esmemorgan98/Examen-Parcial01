@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales mas exoticos</title>
+
+     <!-- JQuery :: CDN -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+     
+     <!-- PopperJs :: CDN -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script> 
+    
+     <!-- Bootstrap :: CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+     <!-- Font Awesome :: CDN -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+     <link rel="stylesheet" href="./recursos/css/general.css">
+
+ </head>
+<body>
+
+    <!-- Título + Boton -->
+    <main id="central" class="justify-content-center">
+        <header>
+            <a href="#">
+                <img src="./recursos/images/guardabarranco.jpg"
+                     alt="" class="img-fluid rounded-circle shadow m-1 p-1 ">
+             <h2>ANIMALES MÁS ASOMBROSOS</h2>
+            </a>
+        </header>
+        <a href="#" class="btn btn-light btn-outline-info">Ver más</a>
+    </main>
+
+
+    <!-- Barra Superior, uso de la etiqueta HTML5 HEADER-->
+    <header id="inicio">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#terre">Terrestres</a>
+                </li>
+                <li>
+                    <a href="#acua">Acuáticos</a>
+                </li>
+                <li>
+                    <a href="#aereo">Aéreos</a>
+                </li>
+                <li>
+                    <a href="#otro">Otros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+      <!-- Contenido -->
+     <main>
+        <section id="contenido" class="bg-light">
+            <article class="d-flex flex-row justify-content-center" style="width: 70rem; margin-left: 10%;">
+
+                <div id="terre" class="box center jumbotrom shadow m-2 p-4 bg-light text-center">
+                    <i class="fas fa-dog fa-3x"></i>
+                   <a href="#ft"><h3>Fauna Terrestres</h3></a>
+                   <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, qui.</span>
+                </div>
+
+                <div id="acua" class="box center jumbotrom shadow m-2 p-4 bg-light text-center">
+                    <i class="fas fa-fish fa-3x"></i>
+                   <a href="#fa"><h3 class="h3">Fauna Acuáticos</h3></a> 
+                   <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cum.</span>
+                   
+                </div>
+
+                <div id="aereo" class="box center jumbotrom shadow m-2 p-4 bg-light text-center">
+                    <i class="fas fa-dove fa-3x"></i>
+                    <a href="#fae"><h3>Fauna Aérea</h3></a>
+                   <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, repellat!</span>
+                </div>
+
+                <div id="otro" class="box center jumbotrom shadow m-2 p-4 bg-light text-xl-center">
+                    <i class="fas fa-hippo fa-3x"></i>
+                    <a href="#fo"><h3>Otros</h3></a>
+                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, praesentium.</span>
+                 </div>
+
+           </article>
+        </section>
+     </main>
+
+     <!-- Imagenes -->
+     <section>
+         <article class="container"  style="background-color: rgba(9, 77, 167, 0.479)">
+             <div>
+                 <h3 id="#ft" class="text-center text-light">Fauna Terrestre</h3>
+             </div>
+             <div class="bloque">
+             <figure>
+                 <img src="recursos/images/armadillo.jpg" alt="">
+                 <p class="text-center">Armadillo</p>
+             </figure>
+
+             <figure>
+                <img src="recursos/images/tigre.jpg" alt="">
+                <p class="text-center">Leopardo</p>
+            </figure>
+
+            <figure>
+                <img src="recursos/images/tapir.jpg" alt="">
+                <p class="text-center">Tapir</p>
+            </figure>
+            </div>
+
+            <!--ACUATICOS-->
+
+            <div>
+                <h3 id="fa" class="text-center text-light">Fauna Acuaticos</h3>
+            </div>
+            <div class="bloque">
+            <figure>
+                <img src="recursos/images/peces.jpg" alt="">
+                <p class="text-center">Peces</p>
+            </figure>
+
+            <figure>
+               <img src="recursos/images/tiburones.jpg" alt="">
+               <p class="text-center">Tiburones</p>
+           </figure>
+
+           <figure>
+               <img src="recursos/images/tortuga.jpg" alt="">
+               <p class="text-center">Tortuga</p>
+           </figure>
+            </div>
+
+            <!-- AEREOS -->
+
+            <div>
+                <h3 id="fae" class="text-center text-light">Fauna Aérea</h3>
+            </div>
+            <div class="bloque">
+            <figure>
+                <img src="recursos/images/chocoyo.jpg" alt="">
+                <p class="text-center">Chocoyo</p>
+            </figure>
+
+            <figure>
+               <img src="recursos/images/tucan.jpg" alt="">
+               <p class="text-center">Tucán</p>
+           </figure>
+
+           <figure>
+               <img src="recursos/images/pajaros.jpg" alt="">
+               <p class="text-center">Pájaros</p>
+           </figure>
+            </div>
+
+            <!-- OTROS -->
+
+            <div>
+                <h3 id="fo" class="text-center text-light">Otros</h3>
+            </div>
+            <div class="bloque">
+            <figure>
+                <img src="recursos/images/peresoso.jpg" alt="">
+                <p class="text-center">Perezoso</p>
+            </figure>
+
+            <figure>
+               <img src="recursos/images/garrobo.jpg" alt="">
+               <p class="text-center">Garrobos</p>
+           </figure>
+
+           <figure>
+               <img src="recursos/images/serpiente.jpg" alt="">
+               <p class="text-center">Serpiente</p>
+           </figure>
+            </div>
+
+         </article>
+     </section>
+     
+
+     <!-- Footer -->
+     <footer class="contenedor">
+         <section>
+         <h4 class="text-center">Si deseas más información, contáctanos a:</h4>
+        </section>
+
+         <section class="contenedor d-flex flex-row justify-content-center">
+                   <ul>
+                       <li></li>
+                       <li><i class="fas fa-map-marked-alt fa-2x"></i>Dirección Local Físico</li>
+                       <li><i class="fas fa-mobile-alt fa-2x"></i>+(505) 8485-6996 o +(505) 8897-6348</i></li>
+                       <li><i class="fas fa-paper-plane fa-2x"></i>contactameya@mymail.com</i></li>
+                       <li><i class="fas fa-wifi fa-2x"></i>www.fauna-nicaragua.com</li>
+                       
+                   </ul>
+                   <ul id="icono">
+                    <li><i class="fab fa-twitter fa-2x"></i></li>
+                    <li><i class="fab fa-instagram fa-2x"></i></li>
+                    <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                   </ul>
+
+                 
+            </section>
+           Esmeraldauxiliadora Morgan Osorno
+     </footer>
+</body>
+</html>
